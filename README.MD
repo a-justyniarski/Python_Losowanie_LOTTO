@@ -1,2 +1,2 @@
-# Zadanie 2 - MITO LOTTO
+# Zadanie 2 - Losowanie LOTTO
 
