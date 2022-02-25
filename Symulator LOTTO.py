@@ -2,7 +2,7 @@
 import random
 
 
-RAN = 6
+RANGE = 6
 
 
 def check_presence(number, list_of_numbers):
@@ -39,10 +39,10 @@ def get_numbers():
 
     t = []
     i = 1
-    while i <= RAN:
+    while i <= RANGE:
         # num = 0
         try:
-            num = int(input(f'Please enter {i} number out of {RAN}:\n'))
+            num = int(input(f'Please enter {i} number out of {RANGE}:\n'))
         except ValueError:
             print("Given value is not a number!")
             continue
@@ -67,7 +67,7 @@ def draw_numbers():
     """
     t = []
 
-    while len(t) < len(range(RAN)):
+    while len(t) < len(range(RANGE)):
         drawn_number = random.randint(1, 49)
         if not check_presence(drawn_number, t):
             t.append(drawn_number)
