@@ -41,7 +41,7 @@ def get_numbers():
     i = 1
     while i <= RANGE:
         try:
-            num = int(input(f'Please enter {i} number out of {RANGE}:\n'))
+            num = int(input(f'Please enter number {i} out of {RANGE}:\n'))
         except ValueError:
             print("Given value is not a number!")
             continue
