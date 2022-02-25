@@ -40,7 +40,6 @@ def get_numbers():
     t = []
     i = 1
     while i <= RANGE:
-        # num = 0
         try:
             num = int(input(f'Please enter {i} number out of {RANGE}:\n'))
         except ValueError:
