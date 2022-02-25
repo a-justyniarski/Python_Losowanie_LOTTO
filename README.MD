@@ -1,2 +1,1 @@
-# Zadanie 2 - Losowanie LOTTO
-
+# Zadanie 2 - Symulator LOTTO
